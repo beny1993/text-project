@@ -13,7 +13,6 @@
           "like": 6,
           "dislike": 5,
           "commentContent": "test1"
-
         },
         {
           "id": 2,
@@ -21,7 +20,16 @@
           "like": 3,
           "dislike": 3,
           "commentContent": "test1"
-
+        },
+        {
+          "id": 3,
+          "name": "benyamin",
+          "like": 6,
+          "dislike": 5,
+          "commentContent": "test1"
+        },
+        {
+          "commentContent": "test3"
         }
       ]
     },
@@ -38,7 +46,6 @@
           "like": 2,
           "dislike": 3,
           "commentContent": "test1"
-
         },
         {
           "id": 2,
@@ -46,7 +53,6 @@
           "like": 2,
           "dislike": 3,
           "commentContent": "test1"
-
         }
       ]
     },
@@ -63,22 +69,46 @@
           "like": 2,
           "dislike": 3,
           "commentContent": "test1"
-          
         },
         {
           "id": 2,
           "name": "benyamin",
           "like": 2,
           "dislike": 3,
-          "commentContent": "test2"
-
+          "commentContent": "test1"
         }
       ]
     },
     {
-      "title": "تست ۱",
-      "content": "تست ۲",
-      "id": 4
+      "id": 4,
+      "title": "سوال اول",
+      "date": "۱۴۰۰/۶/۱۱",
+      "time": "12:40",
+      "content": "سوال تست اول",
+      "comment": [
+        {
+          "id": 1,
+          "name": "benyamin",
+          "like": 2,
+          "dislike": 3,
+          "commentContent": "test1"
+        },
+        {
+          "id": 2,
+          "name": "benyamin",
+          "like": 2,
+          "dislike": 3,
+          "commentContent": "test1"
+        },
+        {
+          "commentContent": "benyamin"
+        }
+      ]
+    },
+    {
+      "title": "تست ۴",
+      "content": "تست۴",
+      "id": 5
     }
   ]
 }

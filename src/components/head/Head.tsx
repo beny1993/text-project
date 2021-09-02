@@ -33,7 +33,7 @@ const Head: FC<HeadProps> = (props) => {
       <div className="mx-5 flex items-center">
         name
         <div className="mx-5 flex rounded-full border h-12 w-12 items-center justify-center">
-          image
+          <img src="/Rectangle.png"/>
         </div>
       </div>
     </div>

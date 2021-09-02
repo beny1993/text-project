@@ -44,7 +44,7 @@ const Box: FC<BoxProps> = (props) => {
         </div>
         <div className="flex flex-row justify-center items-center absolute left-0">
           <div className="mx-5 flex items-center justify-center text-gray-400 flex-row-reverse">
-            {!like ? (
+            {number ? (
               <>
                 <svg
                   width="20"
