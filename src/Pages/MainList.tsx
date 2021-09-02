@@ -21,7 +21,7 @@ export default function MainList() {
   return (
     <>
       <Head title="لیست سوالات" onAddHandler={() => setModal(true)} />
-      <div className="flex justify-center items-center w-full h-screen flex-col px-20 relative top-20 bg-gray-200">
+      <div className="flex justify-center items-center w-full  flex-col px-20 relative top-20 bg-gray-200">
         {data.map((item: any) => {
           return (
             <Box
