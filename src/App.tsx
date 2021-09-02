@@ -3,18 +3,17 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Head from './components/head/Head';
 import DetailsPage from './Pages/DetailsPage';
 import MainList from './Pages/MainList';
 
 function App() {
   return (
-    <div className=" bg-gray-200 w-full h-screen relative" >
+    <div className=" bg-gray-200 w-full h-auto relative top-50" >
       <Switch>
-          <Route path="/Post/:id">
+          <Route exact path="/post/:id">
             <DetailsPage />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <MainList />
           </Route>
         </Switch>    
